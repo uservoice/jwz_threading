@@ -8,11 +8,10 @@ Gem::Specification.new do |s|
   s.authors = ["Frederik Dietz"]
   s.date = %q{2009-06-07}
   s.description = %q{It is a small ruby library which lets you order a list of E-Mails by conversation. That is, grouping messages together in parent/child relationships based on which  messages are replies to which others.}
-  s.email = %q{fdietz@gmail.com}
+  s.email = %q{dev@uservoice.com}
   s.extra_rdoc_files = ["CHANGELOG", "lib/jwz_threading/version.rb", "lib/threading.rb", "README"]
   s.files = ["CHANGELOG", "example/main.rb", "example/test1.mbox", "jwz_threading.gemspec", "lib/jwz_threading/version.rb", "lib/threading.rb", "MIT-LICENSE", "Rakefile", "README", "setup.rb", "test/message_parser_test.rb", "test/test_helper.rb", "test/threading_test.rb", "Manifest"]
-  s.has_rdoc = true
-  s.homepage = %q{http://github.com/fdietz/jwz_threading}
+  s.homepage = %q{http://github.com/uservoice/jwz_threading}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Jwz_threading", "--main", "README"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{jwz_threading}
