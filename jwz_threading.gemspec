@@ -18,14 +18,5 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.1}
   s.summary = %q{jwz_threading version 0.2.0}
   s.test_files = ["test/message_parser_test.rb", "test/test_helper.rb", "test/threading_test.rb"]
-
-  if s.respond_to? :specification_version then
-    current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
-    s.specification_version = 2
-
-    if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
-    else
-    end
-  else
   end
 end
